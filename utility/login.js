@@ -12,13 +12,13 @@ const login = function()
     try
     {
         bot.once("ready", () => {
-            console.log("IsleBot is ready.");
+            console.log("WHOMST HAVE SUMMON ME!");
         });
         bot.login(process.env.TOKEN);
     }
     catch (error)
     {
-        console.log("Unable to log in due to an error.");
+        console.log("I'm weak!");
         console.error(error);
     }
 }
